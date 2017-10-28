@@ -1,0 +1,282 @@
+body {
+	background-color: #fff;
+}
+
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding-left:65px;
+	background-color:#262626;
+	overflow:hidden;
+}
+
+nav li {
+	float:left;
+}
+
+nav li :link{
+	display:block;
+	color:#fff;
+	text-align:center;
+	padding: 14px 16px;
+	margin-left:20px;
+	text-decoration:none;
+	font-family: arial, sans-serif;
+	width: 150px;
+	background-color:#262626;
+}
+
+nav li :visited {
+	color:#fff;
+}
+
+nav li :hover{
+	background-color:#878787;
+}
+
+.currentlevel{
+	background-color:#878787;
+}
+
+#wrap{
+	margin: 0 auto 0 auto;
+	border: 1px solid #000; 
+	width: 960px;
+	background-color: #fff;
+
+}
+
+#header{
+	height:200px;
+	width:960px;
+	clear:both;
+	background-color:#00709E;
+}
+
+#choose{
+margin-top:50px;
+margin-left:195px;
+}
+	
+
+#subject{
+	margin-top:0;
+	padding:20px;
+	font-family:arial,sans-serif;
+	color:#262626;
+}
+
+.standard{
+
+	padding-left:130px;
+	padding-right:20px;
+	font-family:arial,sans-serif;
+	color:#262626;
+}
+
+
+
+.subtable{
+	height:400px;
+	width:700px;
+	border: 1px solid #262626;
+	margin:10px;
+	border-collapse:collapse;
+	color:#000;
+	font-family:arial,sans-serif;
+	margin: 0 auto 0 auto;
+
+}
+
+.year{
+	border-left-color:#fff;
+
+	width:150px;
+}
+
+
+
+.subtable td{
+	border:1px solid #262626;
+	text-align:center;
+}
+
+.subtable a:link{
+color:#000;
+}
+
+
+.subtable a:visited{
+color:#000;
+}
+
+
+
+#content{
+	width: 960px;
+	height:670px;
+	clear:both;
+	background-color:#fff;
+}
+
+#footer{
+	clear:both;
+	width:960px;
+	height:60px;
+	background-color:#00709E;
+	
+}
+
+#footertext{
+color:#fff;
+font-family:"times new roman",sans-serif;
+padding-left:5px;
+padding-top:5px;
+}
+
+#footer a:visited {
+	color:#fff;
+}
+
+#nzqalogo{
+	float:left;
+	padding-left:5px;
+	margin-top:-10px;
+}
+
+
+.list{
+width:226px;
+height:200px;
+margin-top:-260px;
+margin-left:12px;
+z-index:1;
+font-family:arial;
+font-size:17px;	
+background-color:#fff;
+padding-top:10px;
+
+
+}
+#sciencelist3{
+font-size:17px;
+}
+
+#langlist{
+margin-top:-310px;
+padding-top:10px;
+}
+
+
+#sociallist li{
+font-size:17px;
+margin-bottom:7px;
+}
+
+#languagelist li{
+font-size:17px;
+margin-bottom:6px;
+}
+
+
+
+.list li{
+margin-bottom:10px;
+
+}
+
+.list a:link{
+	color:#000;
+
+}
+
+.list a:visited {
+	color:#000;
+}
+
+
+
+.subject{
+    width:250px;
+    height:250px;
+    border:1px solid #fff;
+    float: left;
+	margin:10px;
+	margin-left:45px;
+	margin-top:45px;
+
+
+
+}
+
+.subjecticon{
+width:250px;
+height:250px;
+background-color:#D9d9d9;
+margin-top:-205px;
+z-index:2;
+ transition:  linear 0.3s, opacity 0.3s linear;
+ 
+}
+
+.subject:hover .subjecticon{
+visibility: hidden;
+ opacity: 0;   
+}
+
+.label{
+	visibility:hidden;
+}
+.subject:hover .label{
+	visibility:visible;
+}
+
+
+.tab {
+    overflow: hidden; 
+margin-left:160px;
+border-bottom:solid 1px #262626;
+width:640px;
+}
+
+.tab button {
+    background-color:#00709E; 
+    float: left;
+   border-bottom-color:#262626;
+   border-right-color:#262626;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+	color:#fff;
+	font-family:arial,sans-serif;
+	margin-left:10px;
+	width:200px;
+	height:50px;
+
+}
+
+
+.tab button:hover {
+    background-color: #8D8D8D;
+}
+
+.tab button.active {
+    background-color: #262626;
+}
+
+
+.tabcontent {
+    display: none;
+    padding-top:12px;
+ 
+}
+
+.tabcontent.active {
+    display: block;
+   
+ 
+}
+
+
+
